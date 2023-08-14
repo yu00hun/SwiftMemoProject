@@ -14,6 +14,7 @@
 		5C327D9D2A8626ED00D39C96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C327D9C2A8626ED00D39C96 /* Assets.xcassets */; };
 		5C327DA02A8626ED00D39C96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C327D9E2A8626ED00D39C96 /* LaunchScreen.storyboard */; };
 		5C3E414B2A8A716B00C0045C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3E414A2A8A716B00C0045C /* Model.swift */; };
+		5C3E414D2A8A738700C0045C /* MemoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3E414C2A8A738700C0045C /* MemoListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		5C327D9F2A8626ED00D39C96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C327DA12A8626ED00D39C96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C3E414A2A8A716B00C0045C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		5C3E414C2A8A738700C0045C /* MemoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				5C327D9E2A8626ED00D39C96 /* LaunchScreen.storyboard */,
 				5C327DA12A8626ED00D39C96 /* Info.plist */,
 				5C327D992A8626EC00D39C96 /* SwiftMemoProject.xcdatamodeld */,
+				5C3E414C2A8A738700C0045C /* MemoListTableViewController.swift */,
 			);
 			path = SwiftMemoProject;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			files = (
 				5C327D912A8626EC00D39C96 /* AppDelegate.swift in Sources */,
 				5C327D932A8626EC00D39C96 /* SceneDelegate.swift in Sources */,
+				5C3E414D2A8A738700C0045C /* MemoListTableViewController.swift in Sources */,
 				5C327D9B2A8626EC00D39C96 /* SwiftMemoProject.xcdatamodeld in Sources */,
 				5C3E414B2A8A716B00C0045C /* Model.swift in Sources */,
 			);
