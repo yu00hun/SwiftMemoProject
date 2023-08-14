@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		5C327D912A8626EC00D39C96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C327D902A8626EC00D39C96 /* AppDelegate.swift */; };
 		5C327D932A8626EC00D39C96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C327D922A8626EC00D39C96 /* SceneDelegate.swift */; };
-		5C327D952A8626EC00D39C96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C327D942A8626EC00D39C96 /* ViewController.swift */; };
 		5C327D982A8626EC00D39C96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C327D962A8626EC00D39C96 /* Main.storyboard */; };
 		5C327D9B2A8626EC00D39C96 /* SwiftMemoProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5C327D992A8626EC00D39C96 /* SwiftMemoProject.xcdatamodeld */; };
 		5C327D9D2A8626ED00D39C96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C327D9C2A8626ED00D39C96 /* Assets.xcassets */; };
@@ -20,7 +19,6 @@
 		5C327D8D2A8626EC00D39C96 /* SwiftMemoProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftMemoProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C327D902A8626EC00D39C96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C327D922A8626EC00D39C96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5C327D942A8626EC00D39C96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5C327D972A8626EC00D39C96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5C327D9A2A8626EC00D39C96 /* SwiftMemoProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftMemoProject.xcdatamodel; sourceTree = "<group>"; };
 		5C327D9C2A8626ED00D39C96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,7 +58,6 @@
 			children = (
 				5C327D902A8626EC00D39C96 /* AppDelegate.swift */,
 				5C327D922A8626EC00D39C96 /* SceneDelegate.swift */,
-				5C327D942A8626EC00D39C96 /* ViewController.swift */,
 				5C327D962A8626EC00D39C96 /* Main.storyboard */,
 				5C327D9C2A8626ED00D39C96 /* Assets.xcassets */,
 				5C327D9E2A8626ED00D39C96 /* LaunchScreen.storyboard */,
@@ -141,7 +138,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C327D952A8626EC00D39C96 /* ViewController.swift in Sources */,
 				5C327D912A8626EC00D39C96 /* AppDelegate.swift in Sources */,
 				5C327D932A8626EC00D39C96 /* SceneDelegate.swift in Sources */,
 				5C327D9B2A8626EC00D39C96 /* SwiftMemoProject.xcdatamodeld in Sources */,
