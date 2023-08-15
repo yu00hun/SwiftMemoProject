@@ -17,6 +17,7 @@
 		5C3E414D2A8A738700C0045C /* MemoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3E414C2A8A738700C0045C /* MemoListTableViewController.swift */; };
 		5C3E414F2A8B43CD00C0045C /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3E414E2A8B43CD00C0045C /* ComposeViewController.swift */; };
 		5C3E41512A8B49A400C0045C /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3E41502A8B49A400C0045C /* UIViewController+Alert.swift */; };
+		5C3E41532A8B505300C0045C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3E41522A8B505300C0045C /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		5C3E414C2A8A738700C0045C /* MemoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListTableViewController.swift; sourceTree = "<group>"; };
 		5C3E414E2A8B43CD00C0045C /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 		5C3E41502A8B49A400C0045C /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		5C3E41522A8B505300C0045C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				5C3E414C2A8A738700C0045C /* MemoListTableViewController.swift */,
 				5C3E414E2A8B43CD00C0045C /* ComposeViewController.swift */,
 				5C3E41502A8B49A400C0045C /* UIViewController+Alert.swift */,
+				5C3E41522A8B505300C0045C /* DetailViewController.swift */,
 			);
 			path = SwiftMemoProject;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 				5C327D9B2A8626EC00D39C96 /* SwiftMemoProject.xcdatamodeld in Sources */,
 				5C3E414B2A8A716B00C0045C /* Model.swift in Sources */,
 				5C3E41512A8B49A400C0045C /* UIViewController+Alert.swift in Sources */,
+				5C3E41532A8B505300C0045C /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
