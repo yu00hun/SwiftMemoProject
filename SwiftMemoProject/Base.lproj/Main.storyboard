@@ -97,9 +97,16 @@
                                 <action selector="close:" destination="lGy-4I-cRC" id="6LY-js-Zkd"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="9JN-0R-5Y3"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="9JN-0R-5Y3">
+                            <connections>
+                                <action selector="save:" destination="lGy-4I-cRC" id="Ugx-B0-p4F"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="memoTextView" destination="kMj-GM-V9y" id="B8R-Hl-ZVe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d3K-wD-pBH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
