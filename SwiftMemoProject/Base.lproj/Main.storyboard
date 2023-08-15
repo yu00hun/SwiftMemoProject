@@ -49,7 +49,11 @@
                     </tableView>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Memo" id="hHu-0r-Z8Q">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Vqi-1K-y1N"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Vqi-1K-y1N">
+                            <connections>
+                                <segue destination="wJR-c4-x9a" kind="presentation" id="8Az-lc-IBi"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
@@ -73,8 +77,53 @@
             </objects>
             <point key="canvasLocation" x="-1002" y="-40"/>
         </scene>
+        <!--새 메모-->
+        <scene sceneID="66X-kx-mXK">
+            <objects>
+                <viewController id="lGy-4I-cRC" customClass="ComposeViewController" customModule="SwiftMemoProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <textView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" id="kMj-GM-V9y">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                        <color key="textColor" systemColor="labelColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="새 메모" id="Tvg-d8-gP5">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="Btu-As-ChX"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="9JN-0R-5Y3"/>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d3K-wD-pBH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1602" y="-663"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Ecf-yt-oVP">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wJR-c4-x9a" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="s8u-vx-zi1">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="lGy-4I-cRC" kind="relationship" relationship="rootViewController" id="o7Z-oo-I8H"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7jT-Fv-mwa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="753" y="-663"/>
+        </scene>
     </scenes>
     <resources>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
